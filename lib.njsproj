@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{71d3b4d7-b002-41ae-8362-855e1348846c}</ProjectGuid>
     <ProjectHome>c:\Users\barld\Source\Repos\linq.js\</ProjectHome>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
     <StartupFile>linq.ts</StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -19,6 +19,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="README.md" />
     <TypeScriptCompile Include="genericArrayInterface.ts" />
     <TypeScriptCompile Include="linq.ts" />
